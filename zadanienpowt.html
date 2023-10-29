@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./zadaniepowt.js"></script>
+</head>
+<body>
+    <header>
+      <h1>Kalkulator</h1>
+    </header>
+    <main>
+      <article>
+          <form action="#" method="get" id="formularz">
+              <div class="form">
+                  <div class="description"><label for="Liczba 1">Liczba 1</label></div>
+                  <div class="input"><input type="number" name="Liczba 1" id="Liczba 1"></div>
+              </div>
+              <div class="form">
+                  <div class="description"><label for="Liczba 2">Liczba 2</label></div>
+                  <div class="input"><input type="number" name="Liczba 2" id="Liczba 2"></div>
+              </div>
+              <select id="operation">
+                <option value="+">Dodawanie (+)</option>
+                <option value="-">Odejmowanie (-)</option>
+                <option value="*">Mnożenie (*)</option>
+                <option value="/">Dzielenie (/)</option>
+                <option value="%">Reszta z dzielenia (%)</option>
+                <option value="^">Potęgowanie (^)</option>
+              </select>
+              <div class="form">
+                  <input type="submit" value="Oblicz">
+                  <input type="reset" value="Reset">
+              </div>
+          </form>
+          <div id="result"></div>
+      </article>
+  </main>
+  </body>
+  </html>
