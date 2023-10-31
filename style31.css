@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header > h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    border: 2px double;
+    border-radius: 10%;
+  }
+  form > div {
+    padding: 20px;
+    font-family: Tahoma;
+    font-style: bold;
+  }
+  form > div > label {
+    text-decoration: underline;
+  }
+  
+  div#wynik {
+    font-size: xx-large;
+    border: 2px solid;
+    min-height: 200px;
+    line-height: 200px;
+    border-radius: 10%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
