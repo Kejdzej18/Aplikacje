@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  form {
+    width: 50vw;
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+  }
+  form > .form-element {
+    display: flex;
+    padding: 5px;
+  }
+  form > .form-element > select, form > .form-element input {
+    padding: 5px;
+  }
+  form > .form-element select {
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  form > .form-element label {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    width: 30%;
+    text-align: right;
+  }
+  form > .form-element input {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  form > .form-element input[type=submit], form > .form-element input[type=reset] {
+    width: 30%;
+  }
+  
+  pre {
+    letter-spacing: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px;
+  }

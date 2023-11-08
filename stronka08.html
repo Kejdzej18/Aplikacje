@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style08.css">
+    <script src="./script08.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Wzory</h1>
+    </header>
+    <main>
+        <article>
+            <form action="#" method="get">
+                <div class="form-element">
+                    <select name="figure" id="figure">
+                        <option value="">---Wybierz figurę---</option>
+                        <option value="squareFull">Kwadrat Pełny</option>
+                        <option value="squareEmpty">Kwadrat Pusty</option>
+                        <option value="triangleLeftFull">Trójkąt Lewy Pełny</option>
+                        <option value="triangleLeftEmpty">Trójkąt Lewy Pusty</option>
+                        <option value="triangleRightFull">Trójkąt Prawy Pełny</option>
+                        <option value="triandgleRightEmpty">Trójkąt Prawy Pusty</option>
+                        <option value="">Romb</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label for="figure-size">Wielkość Figury</label>
+                    <input type="number" name="figure-size" id="figure-size" min="2">
+                </div>
+                <div class="form-element">
+                    <input type="submit" value="Rysuj!">
+                    <input type="reset" value="Wyczyść">
+                </div>
+            </form>
+        </article>
+        <article>
+            <pre id="pattern"></pre>
+        </article>
+    </main>
+</body>
+</html>
