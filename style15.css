@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dark-theme {
+  --nav-anchor-color: rgb(226, 240, 255);
+  --nav-bg-color: rgb(39, 36, 36);
+  --header-bg-color: rgb(37, 38, 48);
+  --header-text-color: rgb(208, 227, 255);
+  --aside-bg-color: rgb(36, 36, 39);
+  --article-bg-color: rgb(56, 56, 56);
+  --article-text-color: rgb(208, 227, 255);
+  --footer-bg-color: rgb(36, 36, 39);
+}
+
+.light-theme {
+  --nav-anchor-color: rgb(35, 39, 44);
+  --nav-bg-color: rgb(223, 229, 235);
+  --header-bg-color: rgb(229, 231, 255);
+  --header-text-color: rgb(31, 31, 31);
+  --aside-bg-color: rgb(223, 229, 235);
+  --article-bg-color: rgb(236, 236, 236);
+  --article-text-color: rgb(18, 26, 37);
+  --footer-bg-color: rgb(223, 229, 235);
+}
+
+body > header {
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+  display: flex;
+  background-color: var(--header-bg-color);
+}
+body > header > h1 {
+  width: 90vw;
+  color: var(--header-text-color);
+}
+body > nav {
+  background-color: var(--nav-bg-color);
+}
+body > nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  min-height: 5vh;
+  line-height: 5vh;
+}
+body > nav > ul > li {
+  width: 10vw;
+}
+body > nav > ul a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--nav-anchor-color);
+}
+
+main {
+  display: flex;
+}
+main > aside {
+  width: 15vw;
+  background-color: var(--aside-bg-color);
+}
+main > aside > ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  min-height: 5vh;
+  line-height: 5vh;
+}
+main > aside > ul > li {
+  width: 100%;
+}
+main > aside > ul a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--nav-anchor-color);
+}
+main > article {
+  padding: 10px;
+  width: 85vw;
+  background-color: var(--article-bg-color);
+  color: var(--article-text-color);
+}
+main > article > h2 {
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+}
+main > article > section h3 {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+}
+main > article > section p {
+  padding-bottom: 5px;
+  border-top: 5px;
+}
+
+footer {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  background-color: var(--footer-bg-color);
+}
+
+#templateToggle {
+  height: 10vw;
+}/*# sourceMappingURL=style15.css.map */
